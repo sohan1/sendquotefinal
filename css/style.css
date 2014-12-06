@@ -1,0 +1,239 @@
+@import url(http://fonts.googleapis.com/css?family=Cinzel);
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+ body {
+    font-family: 'Cinzel', serif;
+    /*    background: #EDF9FF;*/
+}
+p {
+    font-family: 'Lato', sans-serif;
+    color: #757575;
+}
+h1,
+{
+    font-family: 'Cinzel', serif;
+}
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Lato', serif;
+    font-weight: 100;
+}
+h2 {
+    color: #FFF;
+}
+.backgrnd1 {
+    background: #fff;
+}
+.backgrnd2 {
+    background: #EAEAEA;
+}
+.text-slider
+{
+        background: rgba(0, 0, 0, 0.26);
+}
+p {
+    padding: 0px;
+    line-height: 200%;
+    font-size: 14px;
+    padding-right: 20px;
+    text-align: justify;
+}
+.section {
+    background-size: cover;
+}
+.section.intro {
+    background-size: cover;
+}
+
+.items
+{
+    color: #fff;
+}
+
+.h2description img {
+    padding-right: 5px;
+}
+.title {
+    font-size: 30px;
+    text-align: center;
+    font-weight: 100;
+    margin: 20px auto 35px;
+    line-height: 120%;
+    color: #FFFFFF;
+    font-family: Lato, serif;
+    background: rgba(0, 0, 0, 0.38);
+}
+.main h1 {
+    color: #fff;
+    padding: 42px;
+    letter-spacing: 12px;
+    font-size: 3.5em;
+}
+.title h1 {
+    font-size: 30px;
+    margin-top: 0px;
+    line-height: 200%;
+    font-weight: 100;
+    font-family: Lato;
+}
+.h2description {
+    font-size: 16px;
+    line-height: 20px;
+    min-height: 50px;
+    font-weight: 400;
+    color: #757575;
+    font-family: "LAto";
+}
+.carousel .item {
+    width: 100%;
+    max-height: 500px;
+}
+.carousel .item img {
+    width: 100%;
+}
+/*add some makeup*/
+
+.carousel .carousel-control {
+    background: none;
+    border: none;
+    top: 50%;
+}
+/*full width container*/
+
+@media (max-width: 767px) {
+    .block {
+        margin-left: -20px;
+        margin-right: -20px;
+    }
+}
+.center-text {
+    padding-top: 40%;
+}
+.section.infoall p {
+    padding-top: 15%;
+    line-height: 30px;
+    font-size: 14px;
+}
+.image-padding {
+    padding-left: 25%;
+}
+.total-pad {
+    padding-left: 8%;
+}
+/* for top up*/
+
+.scrollToTop {
+    padding: 10px;
+    font-weight: bold;
+    color: #444;
+    text-decoration: none;
+    position: fixed;
+    top: 75px;
+    right: 40px;
+    display: none;
+}
+.scrollToTop:hover {
+    text-decoration: none;
+}
+/*end of top up*/
+
+a {
+    text-decoration: none !important;
+    color: #757575;
+}
+h2.text-center {
+    padding: 30px;
+}
+.para {
+    height: 50px;
+    width: 370px;
+    margin-left: 90px;
+}
+.p-box {
+    width: 370px;
+    background: rgba(0, 0, 0, 0.54);
+}
+.pad {
+    padding: 35px;
+}
+span.circle {
+    padding: 12px;
+    background: #ccc;
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+    border-radius: 100%;
+    text-align: Center;
+}
+i.fa.fa-angle-up {
+    font-weight: bolder;
+    font-size: 23px;
+}
+.main{
+    background: url(../images/bckgrnd.png) center center no-repeat;
+    background-size: cover;
+/*
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
+    filter: blur(5px);
+*/
+}
+.maindescrpt {
+    margin: 20px auto 30px;
+}
+
+
+.totalinfo
+{
+background: url(../images/iphoneslstpg.png) center center no-repeat;
+    background-size: cover;
+}
+
+.info3
+{
+    background: url(../images/iphone-3.png) center center no-repeat;
+     background-size: cover;
+}
+
+.info2
+{
+    background: url(../images/iphone-2.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+.info1
+{
+    background: url(../images/iphone-1.png) center center no-repeat;
+    background-size: cover;
+}
+.main h1 {
+    margin:0px;
+}
+
+.p-box p
+{
+    color: #fff;
+}
+.title-main
+{
+    font-size: 30px;
+    text-align: center;
+    font-weight: 100;
+    margin: 20px auto 35px;
+    line-height: 120%;
+    color: #757575;
+    font-family: Lato, serif;
+}
+
+
+.title-main h1 {
+    font-size: 30px;
+    margin-top: 0px;
+    line-height: 200%;
+    font-weight: 100;
+    font-family: Lato;
+}
